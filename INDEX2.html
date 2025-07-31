@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Love for Nishat</title>
+    <style>
+        body {
+            background-color: #ffe6f0;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        h1 {
+            color: #e60073;
+            font-size: 3em;
+        }
+
+        button {
+            background-color: #ff66b3;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 30px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #e5e5e5;
+        }
+
+        #message {
+            margin-top: 40px;
+            font-size: 1.5em;
+            color: #99004d;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>I ❤️ You, Nishat!</h1>
+    <button onclick="showLove()">Click Me</button>
+
+    <p id="message"></p>
+
+    <script>
+        function showLove() {
+            document.getElementById('message').innerText = "তুমি আমার জীবনের সবচেয়ে সুন্দর অনুভব, নিশাত ❤️";
+        }
+    </script>
+
+</body>
+
+</html>
